@@ -11,5 +11,6 @@ if (file_exists( dirname(__FILE__) . '/vendor/autoload.php')) {
 
 
 new LearningPalace\EnqueStylesScripts();
+new LearningPalace\Menus();
 
 

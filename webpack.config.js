@@ -10,7 +10,7 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new BrowserSyncPlugin({
             port: 3000,
-            proxy: 'http://learningplace.test/',
+            proxy: 'http://adchitecs-test.test',
             files: [
               "**/*.php"
             ]

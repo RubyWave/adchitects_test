@@ -1,4 +1,4 @@
-$supercolor: grey;
-* {
-    color: $supercolor !important;
-}
+@import "colors";
+@import "base";
+
+@import "header";
