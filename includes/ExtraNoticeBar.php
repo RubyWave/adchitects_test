@@ -3,11 +3,10 @@
 namespace LearningPalace;
 
 /**
- * Adding all menus in theme
+ * Adding meta custom field to 
  */
-class Menus {
+class ExtraNoticeBar {
 
-    const MENU_LOCATION = 'krove_menu';
     /**
      * Constructor
      */
