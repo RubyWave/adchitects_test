@@ -11,7 +11,7 @@ main {
 
 }
 .container {
-    max-width: 78.125rem;
+    max-width: Min(78.125rem, 90vw);
     margin: 0 auto;
 }
 
