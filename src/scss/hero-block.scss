@@ -5,10 +5,14 @@
     justify-content: center;
     max-width: 38rem;
     margin: 0 auto;
+    text-align: center;
     h1 {
         font-size: 4rem;
+        margin-bottom: .7rem;
     }
-
+    p {
+        line-height: 1.1875rem;
+    }
 }
 
 //this element is to ensure page has some scroll, as was requested

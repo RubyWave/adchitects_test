@@ -20,13 +20,19 @@ header {
         z-index: 9;
     }
     .user-login {
-        width: 1.2rem;
+        width: 1.6rem;
         height: 1.5rem;
+        display: block;
+        margin-left: auto;
         img {
             width: 100%;
             height: auto;
             object-fit: contain;
         }
+    }
+    .user-login-wrapper,
+    .page-logo-wrapper {
+        flex: 1;
     }
 }
 
@@ -64,12 +70,13 @@ header {
         top: 100%;
         left: 0;
         width: 100%;
-        justify-content: space-between;
         border-bottom: 1px solid $border-color;
         background: $background-color;
         padding: 1.5rem 0;
+        gap: 2rem;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         &.visible {
-            display: flex;
+            display: grid;
 
         }
         li {
@@ -77,8 +84,10 @@ header {
         }
         .menu-item a {
             font-size: 1.125rem;
-            margin-bottom: 0.75rem;
             display: block;
+        }
+        .sub-menu {
+            margin-top: 0.6rem;
         }
 
     }
@@ -87,7 +96,7 @@ header {
         padding: 0;
         .menu-item {
 
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.35rem;
             a {
                 font-size: 1rem;
                 color: $muted-text-color;

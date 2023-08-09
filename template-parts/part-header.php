@@ -16,17 +16,23 @@ $notificationText = get_option('topnotification');
     <?php endif; ?>
     
     <div class="container main-header-container">
-        <a href="<?php echo get_home_url(); ?>" class="page-logo">
-            <img class="" src="<?php echo $themeUrl; ?>/img/logo@2x.svg">
-        </a>
+        <div class="page-logo-wrapper">
+            <a href="<?php echo get_home_url(); ?>" class="page-logo">
+                <img class="" src="<?php echo $themeUrl; ?>/img/logo@2x.svg">
+            </a>
+        </div>
+        
         <nav id="nav">
             <?php wp_nav_menu(array(
                 'theme_location' => Menus::MENU_LOCATION,
                 'container' => '',
             )); ?>
         </nav>
-        <a href="#" class="user-login">
-            <img class="" src="<?php echo $themeUrl; ?>/img/user.svg">
-        </a>
+        <div class="user-login-wrapper">
+            <a href="#" class="user-login">
+                <img class="" src="<?php echo $themeUrl; ?>/img/user.svg">
+            </a>
+        </div>
+        
     </div>
 </header>
