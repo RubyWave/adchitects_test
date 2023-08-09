@@ -1,6 +1,6 @@
 # Dev Task for adchitects
 
-This project based on design https://app.clickup.com/t/862k736bd, given as a recrutation task. It's only a simple demo, not fully functioning web page.
+This project based on design https://marvelapp.com/prototype/714g6ej/screen/88725620/handoff, given as a recruitment task. It's only a simple demo, not a fully functioning web page.
 
 
 ## Installing and setup
@@ -21,9 +21,9 @@ This project based on design https://app.clickup.com/t/862k736bd, given as a rec
 7. Done
 
 
-## Running project via BrowseSync
+## Running project via BrowserSync
 
-There is configured BrowseSync in webpack config file, you need only change proxy and port settings and then run it with command:
+There is configured BrowserSync in webpack config file, you need only change proxy and port settings and then run it with command:
 ```
 npm run watch
 ```
