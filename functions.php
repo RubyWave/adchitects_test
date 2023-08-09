@@ -9,6 +9,8 @@ if (file_exists( dirname(__FILE__) . '/vendor/autoload.php')) {
     return;
 }
 
+//enable WP managed title tag
+add_theme_support( 'title-tag' );
 
 new LearningPalace\EnqueStylesScripts();
 new LearningPalace\Menus();

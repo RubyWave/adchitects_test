@@ -6,7 +6,7 @@ $notificationText = get_option('topnotification');
 ?>
 
 <header class="page-header <?php if($notificationText == '') echo 'extra-info-hidden' ?>">
-    <?php if($notificationText == ''): ?>
+    <?php if($notificationText != ''): ?>
         <div class="extra-notification">
             <div class="container">
                 <p class="extra-notification-text"><?php echo get_option('topnotification'); ?></p>

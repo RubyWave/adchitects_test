@@ -8,10 +8,15 @@ body {
     margin: 0;
 }
 main {
-    margin-top: 4rem;
 
 }
 .container {
     max-width: 78.125rem;
     margin: 0 auto;
+}
+
+//moved wp admin bar to the bottom, to not obstruct top notification bar
+#wpadminbar {
+    top: unset;
+    bottom: 0;
 }

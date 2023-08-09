@@ -1,0 +1,18 @@
+.hero-block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 38rem;
+    margin: 0 auto;
+    h1 {
+        font-size: 4rem;
+    }
+
+}
+
+//this element is to ensure page has some scroll, as was requested
+.hero-afterblock {
+    width: 100%;
+    height: 200vh;
+}

@@ -49,7 +49,8 @@ document
         if(hideFlag != null && hideFlag === 'true') {
             document.querySelector('header').classList.add('extra-info-hidden');
         }
-        document.querySelector('header .extra-notification-close').addEventListener('click', event => {
+        const notificationCloser = document.querySelector('header .extra-notification-close');
+        if(notificationCloser) notificationCloser.addEventListener('click', event => {
             event.target.closest('header').classList.add('extra-info-hidden');
             localStorage.setItem("hidetopinfobar", "true");
         });
